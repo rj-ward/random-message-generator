@@ -21,4 +21,19 @@
 
 import * as Cards from "./card-library.js";
 
-console.log(Cards.deck[4]);
+function drawCard() {
+    return Math.floor(Math.random() * 22);
+};
+
+let card1 = Cards.deck[drawCard()];
+let card2 = Cards.deck[drawCard()];
+let card3 = Cards.deck[drawCard()];
+
+let message1 = `Today's Vibe: ${card1.name}. Keywords: ${card1.keywords}.`;
+let message2 = `Where to focus your energy: ${card2.name}. Keywords: ${card2.keywords}.`;
+let message3 = `How to make the most of your day: ${card3.name}. Keywords: ${card3.keywords}.`;
+
+console.log('Welcome to your daily tarot reading!');
+console.log(message1);
+console.log(message2);
+console.log(message3);
