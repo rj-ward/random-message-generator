@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  },
+  "name": "random-tarot",
+  "version": "1.0.0",
+  "description": "stuff",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "stuff"
+  },
+  "keywords": [
+    "stuff"
+  ],
+  "author": "Remy Ward",
+  "license": "ISC"
+}
