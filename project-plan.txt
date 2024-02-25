@@ -1,0 +1,18 @@
+Random tarot spreads
+
+Past present future
+
+major arcana with keywords
+
+object: Card
+Name
+upright
+Reversed
+
+file of card library
+
+script
+
+- Build library
+- build randomizer
+- build message display
